@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\States">
+      <UniqueIdentifier>{db84b43a-8fb0-42f4-9b48-9389826355be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Systems">
+      <UniqueIdentifier>{96a52fde-85c3-4629-8416-0b7d98147631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Handlers">
+      <UniqueIdentifier>{446fc01a-86f1-4bbb-a8e0-c30d8c69610e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Components">
+      <UniqueIdentifier>{00ef7b49-d3f9-488e-ac15-9bc0ded5eb24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Pathfinding">
+      <UniqueIdentifier>{4537323e-6a94-49b4-853f-5876f3e75428}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Pliki źródłowe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayState.cpp">
+      <Filter>Pliki źródłowe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHandler.cpp">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHandler.cpp">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerControlledComp.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="VelocityComp.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="AccelerationComp.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteComp.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComp.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSystem.cpp">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Assembler.cpp">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileComp.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootComp.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootSystem.cpp">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileSystem.cpp">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelHandler.cpp">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionComp.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthComp.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashingSystem.cpp">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyComp.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySystem.cpp">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger.cpp">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticAnimationComp.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Pliki źródłowe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="RankingHandler.cpp">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectableComp.cpp">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RankingState.cpp">
+      <Filter>Pliki źródłowe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccelerationComp.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComp.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerControlledComp.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComp.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="VelocityComp.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHandler.h">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHandler.h">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayState.h">
+      <Filter>Pliki źródłowe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Pliki źródłowe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSystem.h">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembler.h">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileComp.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootComp.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootSystem.h">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileSystem.h">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelHandler.h">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionComp.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthComp.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashingSystem.h">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyComp.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySystem.h">
+      <Filter>Pliki źródłowe\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.h">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticAnimationComp.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Pliki źródłowe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="RankingHandler.h">
+      <Filter>Pliki źródłowe\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectableComp.h">
+      <Filter>Pliki źródłowe\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RankingState.h">
+      <Filter>Pliki źródłowe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Pliki źródłowe\Pathfinding</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project.rc">
+      <Filter>Pliki zasobów</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Notes.txt">
+      <Filter>Pliki zasobów</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

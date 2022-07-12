@@ -1,0 +1,26 @@
+TO DO:
+-Add enemy state machine
+-Buffs
+
+
+-add map bounds collision
+FIX:
+-UI Health odd number of health changing
+
+-Use Vector normalizing method from tools
+-change naming of variables in Level loading method (i and j - confusing)
+
+DONE:
+-ranges
+
+-rendering priority (Layers)
+-when adding walls correct sprite is chosen
+-new enemies
+-player can die (it doesn't end the game yet)
+-new artwork
+-spike tile that hurts the player
+-loading level from file
+-Changing level
+-Score Board
+-UI
+-Level queue with enemy spawning
